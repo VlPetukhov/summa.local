@@ -16,7 +16,13 @@ use app\App;
     <script type="text/javascript" src="/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <?=$this->content;?>
+    <div id="content-container">
+        <?=$this->content;?>
+        <div class="clearfix"></div>
+    </div>
+    <div class="footer">
+        <span><?=date('Y')?> All rights reserved</span>
+    </div>
     <script type="text/javascript" src="/js/site.js"></script>
 </body>
 </html>
