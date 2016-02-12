@@ -1,0 +1,44 @@
+.image-container {
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    vertical-align: middle;
+    float: none;
+    margin: 0 -1px 2px;
+    border: solid 1px #ddd;
+    padding: 15px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.preview-img {
+    display: block;
+    float: none;
+    margin: auto;
+    max-height: 300px;
+    max-width: 100%;
+    width: auto;
+    clear: both;
+}
+
+.image-descr {
+    padding: 5px 15px;
+}
+
+.image-date {
+    float: left;
+    padding: 0 15px;
+    font-size: x-small;
+    color: #aaa;
+}
+
+#gallery-logout {
+    display: block;
+    float: right;
+}
+
+.image-delete-frm {
+    float: right;
+    font-size: x-small;
+    margin-right: 15px;
+}
