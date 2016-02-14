@@ -5,7 +5,7 @@
 ?>
 <div class="container col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1  col-sm-10 col-sm-offset-1 col-xs-12 col-xs-offset-0">
     <h1>Your Gallery</h1>
-    <a href="/site/upload/">Upload new image</a>
+    <a href="/site/upload/" id="upload-link">Upload new image</a>
     <a href="/user/logout/" id="gallery-logout">Logout</a>
     <hr>
     <p id="gallery-is-empty" class="<?=(empty($gallery))?'':'hidden';?>">Your Gallery is empty. Start fill your Gallery with images right now and create amazing image collection!</p>
@@ -24,3 +24,4 @@
     </div>
 <?php endforeach;?>
 </div>
+<script type="text/javascript" src="/js/gallery.js"></script>

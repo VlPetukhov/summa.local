@@ -23,6 +23,5 @@ use app\App;
     <div class="footer">
         <span><?=date('Y')?> All rights reserved</span>
     </div>
-    <script type="text/javascript" src="/js/site.js"></script>
 </body>
 </html>
